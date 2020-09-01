@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ColorManager
+comment0.text=\r\n\ Klasse\ ColorManager\r\n\ \r\n\ Die\ Klasse\ speichert\ einen\ Wert,\ dessen\ H\u00E4ufigkeit\ und\ eine\ Tiefe\ f\u00FCr\ den\ Baum.\r\n\ Sonst\ verf\u00FCgt\ die\ Klasse\ nur\ \u00FCber\ Getter-\ und\ Settermethoden.\r\n\ \r\n
+comment1.params=value
+comment1.target=ColorManager(int)
+comment1.text=\r\n\ Constructer\ f\u00FCr\ Objekte\ dieser\ Klasse\r\n\ Die\ Tiefe\ ist\ standartm\u00E4\u00DFig\ 0.\r\n\ Die\ Haufikkeit\ besitzt\ standartm\u00E4\u00DFig\ den\ Wert\ 0.\r\n\ \r\n\ @param\ value\r\n\ \ \ \ \ \ \ \ \ \ Der\ Wert,\ der\ in\ dem\ Object\ gespeichert\ werden\ soll\r\n\ \ \r\n
+comment2.params=depth
+comment2.target=void\ setDepth(int)
+comment2.text=\r\n\ Die\ \u00FCbergebene\ Tiefe\ ist\ nur\ die\ h\u00F6chste\ von\ den\ Sohnen\ des\ Teilbaums,\ in\ dessen\ Wurzel\ sich\ dieses\ Objekt\ befindet.\r\n\ Diese\ Tiefe\ wird\ um\ 1\ erh\u00F6ht\ und\ diesem\ Objekt\ zugewiesen.\r\n\ \r\n\ @param\ depth\r\n\ \ \ \ \ \ \ \ \ \ Die\ gr\u00F6\u00DFte\ Tiefe\ der\ S\u00F6hne\ des\ Teilbaums,\ in\ dessen\ Wurzel\ sich\ das\ Objekt\ befindet.\r\n
+comment3.params=
+comment3.target=int\ getDepth()
+comment3.text=\r\n\ Gibt\ die\ Tiefe\ des\ Teilbaums,\ in\ dessen\ Wurzel\ sich\ das\ Objekt\ befindet,\ zur\u00FCck.\r\n\ \r\n\ @return\ Die\ Tiefe\ des\ Teilbaums.\r\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\r\n\ Gibt\ den\ Wert\ des\ Objekts\ zur\u00FCck\r\n\ \r\n\ @return\ den\ Wert\ des\ Objeks\r\n
+comment5.params=
+comment5.target=void\ increaseOccurence()
+comment5.text=\r\n\ Erh\u00F6ht\ die\ H\u00E4ufigkeit,\ die\ der\ Wert\ hat,\ um\ 1.\r\n
+comment6.params=occ
+comment6.target=void\ setOccurence(int)
+comment6.text=\r\n\ Setzt\ die\ H\u00E4ufigkeit,\ mit\ der\ de\ Wert\ vorkommt,\ auf\ den\ \u00FCbergebenen\ Wert.\ Das\ ist\ zB.\ n\u00F6tig,\r\n\ wenn\ ein\ Objekt\ der\ Klasse\ die\ Summe\ der\ H\u00E4ufigkeiten\ der\ Objekte\ in\ den\ S\u00F6hnen\ des\ Baumknotens,\ in\ dem\r\n\ sich\ dieses\ Objekt\ befindet,\ annehmen\ soll.\r\n\ \r\n\ @param\ die\ neue\ H\u00E4ufigkeit\r\n
+comment7.params=
+comment7.target=int\ getOccurence()
+comment7.text=\r\n\ Gibt\ die\ H\u00E4ufigkeit\ des\ angenommenen\ Werts\ zur\u00FCck\r\n\ \r\n\ @return\ die\ H\u00E4ufigkeit\r\n
+numComments=8
